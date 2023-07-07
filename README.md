@@ -1,4 +1,4 @@
-# DATA ANALYSIS ABOURT TRAFFIC ACCIDENTS
+# DATA ANALYSIS ABOUT TRAFFIC ACCIDENTS
 
 <img src="https://img.shields.io/badge/Python-3.9%2B-blue&style=flat">
 
