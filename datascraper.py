@@ -3,8 +3,7 @@ import requests
 import pandas as pd
 
 # Cargar contenido de la pagina
-link = "https://www.onsv.gob.pe/"
-web_content = requests.get(link)
+web_content = requests.get(https://www.onsv.gob.pe/)
 
 # Convertir a objeto bs4
 html_content = BeautifulSoup(web_content.content, features="lxml")
