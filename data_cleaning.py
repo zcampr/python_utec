@@ -6,7 +6,7 @@ import pandas as pd
 registro_siniestros = pd.read_excel("data/Compilado 2022-2023_preliminar.xlsx", sheet_name="SINIESTROS", header=3)
 registro_vehiculos = pd.read_excel("data/Compilado 2022-2023_preliminar.xlsx", sheet_name="VEHICULOS", header=4)
 registro_personas = pd.read_excel("data/Compilado 2022-2023_preliminar.xlsx", sheet_name="PERSONAS", header=4)
-
+data_actual = pd.read_csv("data/data_actual.csv", sep=",")
 # ======================================================
 
 # LIMPIEZA DE DATOS
