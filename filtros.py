@@ -3,8 +3,7 @@ import branca
 import pandas as pd
 import plotly.express as px
 from folium.plugins import HeatMap, FastMarkerCluster
-from datascraper import data_actual
-from data_cleaning import filter_place, filter_year_month, filter_coordinates, data_afec, data_acc, geojson
+from data_cleaning import filter_place, filter_year_month, filter_coordinates, data_afec, data_acc, geojson, data_actual
 
 class SelectPlace:
     def __init__(self, place='DEPARTAMENTO'):
