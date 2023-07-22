@@ -3,8 +3,7 @@ import plotly.express as px
 from streamlit_folium import st_folium
 from streamlit_extras.badges import badge
 from filtros import map_marker_actual
-from datascraper import data_actual
-from data_cleaning import data_home_afec, filter_principal_afec
+from data_cleaning import data_home_afec, filter_principal_afec, data_actual
 
 # Configuracion
 st.set_page_config(
